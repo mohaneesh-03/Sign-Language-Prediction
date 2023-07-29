@@ -88,7 +88,7 @@ model.add(Dense(actions.shape[0], activation='softmax'))
 ### 5. Save Model Weights:
 
 - After training the LSTM model, save the model weights to a file (e.g., `sign_language_lstm.h5`).
-- The weights file for this project is [actions.h5](actions.h5)
+- The weights file for this project is [actions.h5](action.h5)
 
 ### 6. Make Predictions:
 
